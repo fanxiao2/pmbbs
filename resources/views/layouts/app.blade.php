@@ -8,6 +8,7 @@
     
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title', 'PM-bbs')- 产品经理社区</title>
+    <meta name="description" content="@yield('description', 'pmku 产品经理社区')">
 
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     @yield('styles')
